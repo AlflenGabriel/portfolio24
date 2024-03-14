@@ -69,12 +69,13 @@ const skills = () => {
                   Responsive Design and Accessibility
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  • Creating responsive layouts using media queries, flexbox,
-                  and grid. Tailwind & SCSS.
+                  • Creating responsive designs using media queries, flexbox,
+                  and grid ensures your application adapts well to various
+                  screen sizes.
                 </p>
                 <p className="mt-2 text-sm leading-normal">
-                  • Utilizing Next.js for server-side rendering (SSR), dynamic
-                  routing, SEO and performance optimization.
+                  • Utilizing CSS frameworks like Tailwind and SCSS streamlines
+                  styling and maintains consistency.
                 </p>
               </div>
             </div>
