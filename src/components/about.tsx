@@ -10,7 +10,7 @@ const about = () => {
       </div>
       <div>
         <p className="mb-4">
-          Hello! I'm a passionate{" "}
+          Hello! I&apos;m a passionate{" "}
           <span className="text-slate-200">Computer Scientist</span>{" "}
           specializing in the art of{" "}
           <span className="text-slate-200">Front-End Development</span>. With a
@@ -30,10 +30,10 @@ const about = () => {
           I believe that a great user interface is the bridge between the human
           mind and digital product excellence. Driven by this belief, I dedicate
           myself to building responsive, user-centric interfaces that engage,
-          delight, and communicate clearly on all devices. Whether it's through
-          meticulous code or innovative design, my goal is to contribute to
-          projects that push the boundaries of what's possible on the web. Let's
-          create something amazing together.
+          delight, and communicate clearly on all devices. Whether it&apos;s
+          through meticulous code or innovative design, my goal is to contribute
+          to projects that push the boundaries of what&apos;s possible on the
+          web. Let&apos;s create something amazing together.
         </p>
       </div>
     </div>
