@@ -1,5 +1,7 @@
 import React from "react";
 import projIMG from "../app/assets/projIMG.jpg";
+import portifolioV2 from "../app/assets/portfoliov2.png";
+import portifolioV1 from "../app/assets/portfoliov1.png";
 import Image from "next/image";
 const projects = () => {
   return (
@@ -21,21 +23,19 @@ const projects = () => {
                     href="/"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                    Coming soon...
+                    Web portfolio v2.
                   </a>
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                  perspiciatis iusto, esse voluptate repellendus laborum? At
-                  quia magnam, impedit ducimus amet maxime fugiat harum vero
-                  optio sequi aliquid repellat rerum.
+                  This is version 2.0 of my web portfolio, developed in VSCode,
+                  using Next.js, TypeScript, and Tailwind.
                 </p>
               </div>
               <Image
                 className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                 alt="alt"
                 loading="lazy"
-                src={projIMG}
+                src={portifolioV2}
                 width={200}
                 height={48}
                 style={{ color: "transparent" }}
@@ -49,24 +49,23 @@ const projects = () => {
                 <h3>
                   <a
                     className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                    href="/"
+                    target="_blank"
+                    href="https://alflengabriel.netlify.app/"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                    Coming soon...
+                    Web portfolio v1.
                   </a>
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                  perspiciatis iusto, esse voluptate repellendus laborum? At
-                  quia magnam, impedit ducimus amet maxime fugiat harum vero
-                  optio sequi aliquid repellat rerum.
+                  This is version 1.0 of my web portfolio, developed in VSCode,
+                  using React, JavaScript, and CSS. Deployed with Netlify.
                 </p>
               </div>
               <Image
                 className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                 alt="alt"
                 loading="lazy"
-                src={projIMG}
+                src={portifolioV1}
                 width={200}
                 height={48}
                 style={{ color: "transparent" }}
