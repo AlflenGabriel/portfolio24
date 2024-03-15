@@ -10,7 +10,7 @@ const header = () => {
           <a href="/">Alflen Gabriel</a>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Frontend Engenineer
+          Frontend Developer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
           I build pixel-perfect, engaging, and accessible digital experiences.
