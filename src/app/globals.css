@@ -9,3 +9,11 @@
 body {
   @apply text-base;
 }
+
+nav a.active .nav-indicator {
+  @apply w-16 bg-slate-200 motion-reduce:transition-none;
+}
+
+nav a.active .nav-text {
+  @apply text-slate-200;
+}

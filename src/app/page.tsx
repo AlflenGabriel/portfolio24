@@ -1,9 +1,11 @@
+"use client";
 import CursorFollower from "@/components/CursorFollower";
 import Header from "@/components/header";
 import About from "@/components/about";
 import Skills from "@/components/skills";
 import Projects from "@/components/projects";
 import Footer from "@/components/footer";
+import { Element } from "react-scroll";
 
 export default function Home() {
   return (
@@ -13,12 +15,12 @@ export default function Home() {
           <CursorFollower />
           <Header />
           <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
-            <section
-              id="About"
+            <Element
+              name="About"
               className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
             >
               <About />
-            </section>
+            </Element>
             <section
               id="Skills"
               className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
