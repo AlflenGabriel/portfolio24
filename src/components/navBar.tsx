@@ -13,7 +13,7 @@ function navBar() {
               to="About"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-96}
               duration={100}
               className="group flex items-center py-3 cursor-pointer"
             >
@@ -28,7 +28,7 @@ function navBar() {
               to="Skills"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-144}
               duration={100}
               className="group flex items-center py-3 cursor-pointer"
             >
@@ -43,7 +43,7 @@ function navBar() {
               to="Projects"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-144}
               duration={100}
               className="group flex items-center py-3 cursor-pointer"
             >
