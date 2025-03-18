@@ -12,7 +12,7 @@ const skills = () => {
     <div>
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
         <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
-          skills
+          Habilidades
         </h2>
       </div>
       <div>
@@ -25,15 +25,15 @@ const skills = () => {
               </header>
               <div className="z-10 sm:col-span-6">
                 <h3 className="inline-flex items-baseline font-medium leading-tight text-slate-200 text-base">
-                  TypeScript and Strong Typing
+                  TypeScript e Tipagem Forte
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  • Leveraging TypeScript for static type checking and improved
-                  code quality.
+                  • Utilização do TypeScript para verificação estática de tipos
+                  e melhoria na qualidade do código.
                 </p>
                 <p className="mt-2 text-sm leading-normal">
-                  • Crafting custom types, interfaces, and using generics for
-                  robust code.
+                  • Criação de tipos personalizados, interfaces e uso de
+                  generics para código mais robusto.
                 </p>
               </div>
             </div>
@@ -46,14 +46,15 @@ const skills = () => {
               </header>
               <div className="z-10 sm:col-span-6">
                 <h3 className="inline-flex items-baseline font-medium leading-tight text-slate-200 text-base">
-                  React and Next.js
+                  React e Next.js
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  • Proficient in building reusable components with React.
+                  • Experiência no desenvolvimento de componentes reutilizáveis
+                  com React.
                 </p>
                 <p className="mt-2 text-sm leading-normal">
-                  • Utilizing Next.js for server-side rendering (SSR), dynamic
-                  routing, SEO and performance optimization.
+                  • Utilização do Next.js para renderização no servidor (SSR),
+                  roteamento dinâmico, otimização de SEO e performance.
                 </p>
               </div>
             </div>
@@ -66,16 +67,16 @@ const skills = () => {
               </header>
               <div className="z-10 sm:col-span-6">
                 <h3 className="inline-flex items-baseline font-medium leading-tight text-slate-200 text-base">
-                  Responsive Design and Accessibility
+                  Design Responsivo e Acessibilidade
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  • Creating responsive designs using media queries, flexbox,
-                  and grid ensures your application adapts well to various
-                  screen sizes.
+                  • Desenvolvimento de layouts responsivos utilizando media
+                  queries, flexbox e grid para garantir adaptação a diferentes
+                  tamanhos de tela.
                 </p>
                 <p className="mt-2 text-sm leading-normal">
-                  • Utilizing CSS frameworks like Tailwind and SCSS streamlines
-                  styling and maintains consistency.
+                  • Uso de frameworks CSS como Tailwind e SCSS para estilização
+                  eficiente e manutenção da consistência visual.
                 </p>
               </div>
             </div>
@@ -88,13 +89,15 @@ const skills = () => {
               </header>
               <div className="z-10 sm:col-span-6">
                 <h3 className="inline-flex items-baseline font-medium leading-tight text-slate-200 text-base">
-                  Testing and Code Quality
+                  Testes e Qualidade de Código
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  • Writing unit and integration tests for React components.
+                  • Escrita de testes unitários e de integração para componentes
+                  React.
                 </p>
                 <p className="mt-2 text-sm leading-normal">
-                  • Familiar with tools like Jest and React Testing Library.
+                  • Familiaridade com ferramentas como Jest e React Testing
+                  Library.
                 </p>
               </div>
             </div>
@@ -107,15 +110,15 @@ const skills = () => {
               </header>
               <div className="z-10 sm:col-span-6">
                 <h3 className="inline-flex items-baseline font-medium leading-tight text-slate-200 text-base">
-                  Tooling and Ecosystem
+                  Tooling e Ecossistema
                 </h3>
                 <p className="mt-2 text-sm leading-normal">
-                  • Configuring ESLint, Prettier, Webpack, and Babel for a
-                  smooth development experience.
+                  • Configuração de ESLint, Prettier, Webpack e Babel para um
+                  fluxo de desenvolvimento otimizado.
                 </p>
                 <p className="mt-2 text-sm leading-normal">
-                  • Staying up-to-date with the latest libraries and best
-                  practices.
+                  • Sempre Atualizado sobre novas bibliotecas e melhores
+                  práticas do ecossistema.
                 </p>
               </div>
             </div>
