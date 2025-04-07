@@ -8,7 +8,7 @@ const about = () => {
           Sobre
         </h2>
       </div>
-      <div>
+      <div className="text-justify cursor-default">
         <p className="mb-4">
           Olá! Sou um{" "}
           <span className="text-slate-200">Cientista da Computação</span>{" "}

@@ -7,14 +7,14 @@ const header = () => {
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
         <h1 className="text-5xl font-bold tracking-tight text-slate-200 sm:text-6xl">
-          <a href="/">Gabriel Alflen</a>
+          <a href="/">GABRIEL ALFLEN</a>
         </h1>
-        <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
+        <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl cursor-default">
           Ciêntista da Computação
         </h2>
-        <p className="mt-4 max-w-xs leading-normal">
-          Eu crio experiências digitais envolventes, acessíveis e com precisão
-          nos detalhes.
+        <p className="mt-4 max-w-xs leading-normal cursor-default">
+          crio experiências digitais envolventes, acessíveis e com precisão nos
+          detalhes.
         </p>
 
         <NavBar />
