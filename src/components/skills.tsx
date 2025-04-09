@@ -25,10 +25,10 @@ const Skills = () => {
             >
               <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg" />
               <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
-                <skill.icon className="h-6 w-6" />
+                <skill.icon className="group-hover:text-teal-300 focus-visible:text-teal-300 h-6 w-6" />
               </header>
               <div className="z-10 sm:col-span-6">
-                <h3 className="inline-flex items-baseline font-medium leading-tight text-slate-200 text-base">
+                <h3 className="inline-flex items-baseline font-medium leading-tight text-slate-200 group-hover:text-teal-300 focus-visible:text-teal-300 text-base">
                   {skill.title}
                 </h3>
                 {skill.description.map((line, i) => (
