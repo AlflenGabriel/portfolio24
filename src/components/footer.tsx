@@ -2,7 +2,7 @@ import React from "react";
 
 const footer = () => {
   return (
-    <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0 cursor-default">
+    <footer className="max-w-md pb-0 text-sm text-slate-500 cursor-default">
       <p>
         Coded in{" "}
         <a
